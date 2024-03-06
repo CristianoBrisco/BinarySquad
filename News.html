@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>News</title>
+</head>
+
+<style>
+/*css*/
+a{
+    color: rgb(22, 112, 22);
+}
+header{
+    background-color: #FF971C;
+    color: #FFF;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*
+header:hover{
+    background-color: #aaaaaa;
+}
+alt-shift-f
+ */  
+#menu {
+    display: flex;
+    align-items: center
+}         
+#menu ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#menu li{
+    /*display: inline;*/
+    padding: 4px 8px;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+#menu a{
+    color: #FFF;
+    text-decoration: none;
+    transition: 1s;
+}
+#menu a:hover{
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    background-color: #201c1c;
+    color: #FFF;
+    padding: 20px ;
+
+  
+    
+}
+footer div{
+    width: 25%;
+}
+
+#Blocco4 li{
+    display: inline;    
+}
+
+h3{
+  text-align: center;  
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#footer a{
+    color: #FFF;
+    text-decoration: none;
+    transition: 1s;
+}
+#footer a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+#Blocco4 li{
+    border: none;
+    width: 100% ;
+    padding: 0;
+    margin-left: 0.5rem;
+}
+#Blocco4 div{
+    width: 100%;
+    margin-top: 0.5rem;
+   
+}
+
+.articles article{
+    width: 100%;
+}
+.articles img{
+    width: 500px;
+    height: 250px;
+    max-width: 100%;
+    align-items: center ;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+main{
+    padding: 50px;
+    background-color: rgba(251,249,237,0.78)
+}
+
+h1,h2{
+    text-align: center;
+    }    
+
+#articolo1{
+    padding:3rem;
+    text-align: left;
+    
+}
+#articolo2{
+    padding:3rem;
+    text-align: left;
+}
+.articles a{
+    text-decoration: none;
+    background-color: rgb(205, 0, 0);
+    color: white;
+    padding: 4px 10px;
+    transition: transform 0.3s;
+    will-change: transform ;
+    border-radius: 10px;
+
+ 
+}
+.articles a:hover{
+    background-color: rgb(137, 40, 40);
+    transform: scale(1.1);
+    display: inline-block;
+}
+/*adattamento dispositivi mobile*/
+@media (min-width: 768px) {
+    #menu li{
+        display: inline;
+    }
+    header{
+        height: 120px;
+    }
+    .articles-wrapper{
+        display:flex;
+        width: 100%;
+    
+    }
+
+    .homepage header{
+        height:80vh;
+    }
+
+}
+</style>
+
+
+
+<body class="hompage"></body>
+<header>
+    <div class="top-menu">
+        <div id="logo">
+            <img src="/immagini/logo.png" alt="immagine" width="100" height="110">
+        </div>
+
+        <div id="menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/prenota.html">Biglietti e abbonamenti</a>
+                    </li>
+                    <li>
+                        <a href="/about">Mappa</a>
+                    </li>
+                    <li>
+                        <a href="/news">Altri servizi</a>
+                    </li>
+                    <li><a href="/contact-us">Informazioni</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main>
+    <h1>News Friuland</h1>
+    <h2>Le notizie del parco più bello del Friuli</h2>
+
+    <section class="articles">
+        <h3>Ultime notizie</h3>
+
+        <div class="articles-wrapper">
+            <article id="articolo1">
+                <picture>
+                    <img alt="immagine notizie" src="/immagini/notizia1.jpeg" width="400" height="200" />
+                </picture>
+
+                <h4>Titolo della notizia</h4>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, nobis perferendis nostrum rem enim
+                    aspernatur atque temporibus. Praesentium officiis doloremque, rem placeat voluptates porro
+                    mollitia labore suscipit odit, assumenda beatae!</p>
+
+                <a href="/news/articolo_1.html" title="Titolo della notizia">LEGGI</a>
+            </article>
+
+            <article id="articolo2">
+                <picture>
+                    <img alt="immagine notizie" src="/immagini/notizia2.jpeg" width="400" height="200" />
+                </picture>
+
+                <h4>Titolo della notizia molto più lunga dell'altra</h4>
+
+                <p>Lorem ipsum dolor ma sei stondato elit. Nisi, nobis perferendis <br />
+                    nostrum rem enim aspernatur atque temporibus. Praesentium officiis doloremque, rem placeat
+                    voluptates porro mollitia labore suscipit odit, assumenda beatae!</p>
+
+                <a href="/news/articolo_2.html" title="Titolo della notizia molto più lunga dell'altra">LEGGI</a>
+            </article>
+        </div>
+        <div class="riga 2">
+            <article id="articolo3">
+                <picture>
+                    <img alt="immagine notizie" src="/immagini/notizia3.jpeg" width="400" height="200" />
+                </picture>
+
+                <h4>Titolo della notizia molto più lunga dell'altra</h4>
+
+                <p>Lorem ipsum dolor ma sei stondato elit. Nisi, nobis perferendis <br />
+                    nostrum rem enim aspernatur atque temporibus. Praesentium officiis doloremque, rem placeat
+                    voluptates porro mollitia labore suscipit odit, assumenda beatae!</p>
+
+                <a href="/news/articolo_2.html" title="Titolo della notizia molto più lunga dell'altra">LEGGI</a>
+            </article>
+
+            <article id="articolo4">
+                <picture>
+                    <img alt="immagine notizie" src="/immagini/notizia4.jpeg" width="400" height="200" />
+                </picture>
+
+                <h4>Titolo della notizia molto più lunga dell'altra</h4>
+
+                <p>Lorem ipsum dolor ma sei stondato elit. Nisi, nobis perferendis <br />
+                    nostrum rem enim aspernatur atque temporibus. Praesentium officiis doloremque, rem placeat
+                    voluptates porro mollitia labore suscipit odit, assumenda beatae!</p>
+
+                <a href="/news/articolo_2.html" title="Titolo della notizia molto più lunga dell'altra">LEGGI</a>
+            </article>
+        </div>
+
+    </section>
+</main>
