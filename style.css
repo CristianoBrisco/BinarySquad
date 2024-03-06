@@ -1,3 +1,5 @@
+/*PAGINA FORM/*
+
 /* Box sizing rules */
 *,
 *::before,
@@ -146,6 +148,7 @@ form div {
 
 .form_wrapper {
     width: 50%;
+
 }
 
 .form_wrapper div {
@@ -193,11 +196,12 @@ form div {
 footer{
     display: flex;
     background-color: #FF971C;
+    height: 100%;
+    width: 100%;
 }
 
 .foot{
-    width: 50%;
-    
+    width: 50%; 
 }
 
 .social {
@@ -207,6 +211,9 @@ footer{
     margin-top: 20px;
     float: right;
 }
+
+/*FINE PAGINA FORM*/
+
 /*Pagina Giostre*/
 
 
