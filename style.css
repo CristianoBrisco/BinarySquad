@@ -1,3 +1,5 @@
+/*PAGINA FORM/*
+
 /* Box sizing rules */
 *,
 *::before,
@@ -196,8 +198,7 @@ footer{
 }
 
 .foot{
-    width: 50%;
-    
+    width: 50%; 
 }
 
 .social {
@@ -207,6 +208,8 @@ footer{
     margin-top: 20px;
     float: right;
 }
+
+/*FINE PAGINA FORM*/
 
 /*Pagina Giostre*/
 
