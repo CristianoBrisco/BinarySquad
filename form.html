@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top_menu">
+            <div id="logo">
+                <img src="logoNoBg.png" alt="volpe">
+            </div>
+
+            <div id="menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="/">HOME</a></li>
+                        <li><a href="/prenota.html">BIGLIETTI & ABBONAMENTI</a></li>
+                        <li><a href="/about">MAPPA PARCO</a></li>
+                        <li><a href="/news">ALTRI SERVIZI</a></li>
+                        <li><a href="/contact">INFO UTILI</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="form_wrapper">
+        <form>
+            <div>
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" required />
+            </div>
+
+            <div>
+                <label for="cognome">Cognome</label>
+                <input id="cognome" name="cognome" type="text" required />
+            </div>
+
+            <div>
+                <label for="data">Data di prenotazione</label>
+                <input id="data" name="data" type="date" required />
+            </div>
+
+            <div>
+                <label for="num_adulti">Numero Adulti</label>
+                <select id="num_adulti" name="num_adulti">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="num_ridotti">Numero Bambini</label>
+                <select id="num_ridotti" name="num_ridotti">
+                    <option value="0">Nessun bambino</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="num_over">Numero Over 60</label>
+                <select id="num_over" name="num_over">
+                    <option value="0">Nessun over 60</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+
+            <div class="align_column">
+                <textarea name="note" id="note" cols="25" rows="5" placeholder="Descrivi la tua richiesta"></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Invia richiesta" />
+            </div>
+        </form>
+    </div>
+
+</body>
+
+<footer>
+
+    <div id="left" class="foot">
+
+        <h3>FRIULAND</h3>
+        <img href="logoNoBg.png">
+        <p>© 2024 Friuland Srl. Tutti i diritti sono riservati | Sede: Via Prasecco, 4 - 33170 Pordenone (PN) | Capitale
+            sociale: € 999.999,00 I.V.C.F./P.IVA: 0545670467 | Reg. Impr.: 05431702217 - PORDENONE | REA: 3534564
+        </p>
+        <br>
+        <a href="mailto:friuland@gmail.com">
+            <p>friuland@gmail.com</p>
+        </a>
+    </div>
+
+    <div id="right" class="foot">
+        <a href="https://facebook.com"><img src="facebook.png" class="social" alt="facebook"> </a>
+        <a href="https://twitter.com"><img src="twitter.png" class="social" alt="twitter"> </a>
+        <a href="https://instagram.com"><img src="insta.png" class="social" alt="instagram"> </a>
+    </div>
+
+</footer>
+
+</html>
