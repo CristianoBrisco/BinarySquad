@@ -130,6 +130,7 @@ body{
     background-color: #FFE8CD;
     font-family: "Montserrat";
     width: 100%;
+    margin: 0;
 }
 
 label {
@@ -195,6 +196,8 @@ form div {
 footer{
     display: flex;
     background-color: #FF971C;
+    height: 100%;
+    width: 100%;
 }
 
 .foot{
