@@ -1,0 +1,16 @@
+/*Pagina Giostre*/
+
+.giostre_wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.giostre img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.giostre article {
+    width: 30%;
+}
