@@ -5,32 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <style>
-        #NavBar{
-            display: flex;
-            background-color: #ff971c;
-            justify-content: space-between;
-        }
-        a{
-            font-size:3vh;
-            color:black;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body style="margin:0;padding:0;width:100vw;background-color: #ffe8cd;">
-    <div id="NavBar">
-        <a href="/"><img src="logoNoBg.png" width="150px"></a>
-        <div>
-            <a href="/">Biglietti ed Abonamenti</a>
-            <a href="/Mappa">Mappa</a>
-            <a href="AltriServizi">Altri servizi</a>
-            <a href="Informazioni">Informazioni</a>
-        </div>
-    </div>
-    <div style="width:100vw;height: 250px;border:1px solid #ffe8cd; background-image: url(WhatsApp\ Image\ 2024-03-06\ at\ 15.48.36.jpeg); background-repeat: no-repeat;background-position: center;background-size: cover;">
 
-    </div>
+
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="top_menu">
+            <div id="logo">
+                <img src="logoNoBg.png" alt="volpe">
+            </div>
+
+            <div id="menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="/HomePage.html">HOME</a></li>
+                        <li><a href="/form.html">BIGLIETTI & ABBONAMENTI</a></li>
+                        <li><a href="/about">MAPPA PARCO</a></li>
+                        <li><a href="/news">ALTRI SERVIZI</a></li>
+                        <li><a href="/contact">INFO UTILI</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
     <div style="display:flex; width:600px; height: 250px;margin:auto;border:#ff971c 1px solid;border-radius: 10px;">
         <img src="Giostra.jpg">
         <div style="text-align: center;">
