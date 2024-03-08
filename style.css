@@ -178,6 +178,7 @@ form div {
     flex-direction: column;
 }
 
+/*TASTI SUBMIT*/
 .form_wrapper input[type="submit"] {
     margin-left: 75%;
     width: 150px;
@@ -233,108 +234,13 @@ footer{
     width: 30%;
 }
 
-/*css*/
+/*PAGINA NEWS/*
+
+/*css*//*
 a{
     color: rgb(22, 112, 22);
 }
-header{
-    background-color: #FF971C;
-    color: #FFF;
-    height:200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-#menu {
-    display: flex;
-    align-items: center
-}         
-#menu ul{
-    list-style: none;
-    margin:0;
-    padding:0;
-}
-#menu li{
-    /*display: inline;*/
-    padding: 4px 8px;
-    font-size: 22px;
-    text-transform: uppercase;
-    margin-left: 15px;
-}
-#menu a{
-    color: #FFF;
-    text-decoration: none;
-    transition: 1s;
-}
-#menu a:hover{
-    color:rgb(0, 0, 0);
-    text-decoration: underline;
-}
-.top-menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 0 30px;
-}
-body{
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer{
-    display:flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-around;
-    background-color: #201c1c;
-    color: #FFF;
-    padding: 20px ;
-
-  
-    
-}
-footer div{
-    width: 25%;
-}
-
-#Blocco4 li{
-    display: inline;    
-}
-
-h3{
-  text-align: center;  
-}
-
-ul{
-    text-align: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-#footer a{
-    color: #FFF;
-    text-decoration: none;
-    transition: 1s;
-}
-#footer a:hover{
-    color: aqua;
-    text-decoration: underline;
-}
-#Blocco4 li{
-    border: none;
-    width: 100% ;
-    padding: 0;
-    margin-left: 0.5rem;
-}
-#Blocco4 div{
-    width: 100%;
-    margin-top: 0.5rem;
-   
-}
-
+/*/*
 .articles article{
     width: 100%;
 }
@@ -381,7 +287,11 @@ h1,h2{
     transform: scale(1.1);
     display: inline-block;
 }
-/*adattamento dispositivi mobile*/
+
+
+/*
+
+adattamento dispositivi mobile*
 @media (min-width: 768px) {
     #menu li{
         display: inline;
@@ -399,4 +309,4 @@ h1,h2{
         height:80vh;
     }
 
-}
+}/*
