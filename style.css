@@ -1,3 +1,5 @@
+/*PAGINA FORM/*
+
 /* Box sizing rules */
 *,
 *::before,
@@ -128,6 +130,7 @@ body{
     background-color: #FFE8CD;
     font-family: "Montserrat";
     width: 100%;
+    margin: 0;
 }
 
 label {
@@ -145,6 +148,7 @@ form div {
 
 .form_wrapper {
     width: 50%;
+
 }
 
 .form_wrapper div {
@@ -192,11 +196,12 @@ form div {
 footer{
     display: flex;
     background-color: #FF971C;
+    height: 100%;
+    width: 100%;
 }
 
 .foot{
-    width: 50%;
-    
+    width: 50%; 
 }
 
 .social {
@@ -206,7 +211,11 @@ footer{
     margin-top: 20px;
     float: right;
 }
+
+/*FINE PAGINA FORM*/
+
 /*Pagina Giostre*/
+
 
 .giostre_wrapper {
     display: flex;
